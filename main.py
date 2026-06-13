@@ -5,8 +5,8 @@ import google.generativeai as genai
 TOKEN = '8659798284:AAF6fIglX3stMsMTNoqGGB-1XONkZnlc1hQ'
 bot = telebot.TeleBot(TOKEN)
 
-# ⚠️ ВСТАВТЕ ВАШ СКОПІЙОВАНИЙ КЛЮЧ ВІД GOOGLE МІЖ ЛАПКАМИ НИЖЧЕ
-GOOGLE_API_KEY = 'СЮДИ_ВСТАВТЕ_КЛЮЧ_ВІД_GOOGLE'
+# ⚠️ 
+GOOGLE_API_KEY = 'AQ.Ab8RN6JQP5Rw0-WJRfObbUP7skpAwzVBZXi8F0uLOdKHCOapiA'
 genai.configure(api_key=GOOGLE_API_KEY)
 
 def запит_до_шi(текст_запиту):
