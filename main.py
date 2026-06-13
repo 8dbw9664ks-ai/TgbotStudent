@@ -2,10 +2,10 @@ import telebot
 import google.generativeai as genai
 
 # Токен вашого бота
-TOKEN = '8659798284:AAF6fIglX3stMsMTNoqGGB-1XONkZnlc1hQ'
+TOKEN = '8981380919:AAEtOo0_7H7DKD9iILQXt8R7UG59b38qCcE'
 bot = telebot.TeleBot(TOKEN)
 
-# ⚠️ 
+# ⚠️
 GOOGLE_API_KEY = 'AQ.Ab8RN6JQP5Rw0-WJRfObbUP7skpAwzVBZXi8F0uLOdKHCOapiA'
 genai.configure(api_key=GOOGLE_API_KEY)
 
