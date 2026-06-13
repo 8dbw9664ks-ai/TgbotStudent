@@ -1,7 +1,7 @@
 import telebot
 import requests
 
-TOKEN = '8659798284:AAF6fIglX3stMsMTNoq_S1I0AKXnZnlc1hQ'
+TOKEN = '8659798284:AAF6fIglX3stMsMTNoqGGB-1XONkZnlc1hQ'
 bot = telebot.TeleBot(TOKEN)
 
 def запит_до_шi(текст_запиту):
